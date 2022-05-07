@@ -1,0 +1,85 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "lab1_Slobodyan_Dmytro/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/lab1_Slobodyan_Dmytro.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/lab1_Slobodyan_Dmytro.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lab1_Slobodyan_Dmytro/1.0.0": {
+      "type": "project",
+      "path": "../lab1_Slobodyan_Dmytro/lab1_Slobodyan_Dmytro.csproj",
+      "msbuildProject": "../lab1_Slobodyan_Dmytro/lab1_Slobodyan_Dmytro.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "lab1_Slobodyan_Dmytro >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dimas\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\WargarDn\\KPI\\2course\\2sem\\.Net WEB\\lab1_Slobodyan_Dmytro\\la1_Tests\\la1_Tests.csproj",
+      "projectName": "la1_Tests",
+      "projectPath": "D:\\WargarDn\\KPI\\2course\\2sem\\.Net WEB\\lab1_Slobodyan_Dmytro\\la1_Tests\\la1_Tests.csproj",
+      "packagesPath": "C:\\Users\\dimas\\.nuget\\packages\\",
+      "outputPath": "D:\\WargarDn\\KPI\\2course\\2sem\\.Net WEB\\lab1_Slobodyan_Dmytro\\la1_Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\dimas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\WargarDn\\KPI\\2course\\2sem\\.Net WEB\\lab1_Slobodyan_Dmytro\\lab1_Slobodyan_Dmytro\\lab1_Slobodyan_Dmytro.csproj": {
+              "projectPath": "D:\\WargarDn\\KPI\\2course\\2sem\\.Net WEB\\lab1_Slobodyan_Dmytro\\lab1_Slobodyan_Dmytro\\lab1_Slobodyan_Dmytro.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
